@@ -1,0 +1,47 @@
+.themeSwitcher {
+    appearance: none;
+    width: 52px;
+    height: 32px;
+    background-color: var(--light-bg-color, #d5d5d5);
+    border-radius: 60px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.themeSwitcher::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 6px;
+    top: 6px;
+    transition: 0.3s;
+}
+
+.themeSwitcher::after {
+    content: "";
+    position: absolute;
+    color: #34384b;
+    font-size: 20px;
+    left: 20px;
+    top: 29px;
+    transition: 0.3s;
+}
+
+.themeSwitcher:checked {
+    background-color: var(--dark-bg-color, #323334);
+}
+
+.themeSwitcher:checked::before {
+    background: #000;
+    left: 26px;
+}
+
+.themeSwitcher:checked::after {
+    content: "";
+    color: #fff;
+    left: 85px;
+}
