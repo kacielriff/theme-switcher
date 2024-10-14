@@ -1,5 +1,5 @@
 {
-    "name": "theme-switcher",
+    "name": "dbc-theme-switcher",
     "version": "1.0.0",
     "description": "Componente de alteração de tema claro e escuro",
     "main": "index.ts",
