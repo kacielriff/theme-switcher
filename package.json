@@ -1,12 +1,12 @@
 {
     "name": "dbc-theme-switcher",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Componente de alteração de tema claro e escuro",
     "main": "index.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
+    "keywords": ["theme", "dark mode", "light mode", "theme switcher"],
     "author": "",
     "license": "MIT",
     "dependencies": {
