@@ -1,6 +1,6 @@
 {
-    "name": "dbc-theme-switcher",
-    "version": "1.0.1",
+    "name": "kacielriff-theme-switcher",
+    "version": "1.0.2",
     "description": "Componente de alteração de tema claro e escuro",
     "main": "index.ts",
     "scripts": {

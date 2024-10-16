@@ -16,14 +16,14 @@ Este componente utiliza um hook personalizado chamado `useThemeSwitcher` para re
 1. Instale o pacote:
 
 ```bash
-npm install dbc-theme-switcher
+npm install kacielriff-theme-switcher
 ```
 
 2. Importe o componente e o hook no seu projeto:
 
 ```tsx
-import { ThemeSwitcher } from 'dbc-theme-switcher';
-import { useThemeSwitcher } from 'dbc-theme-switcher';
+import { ThemeSwitcher } from 'kacielriff-theme-switcher';
+import { useThemeSwitcher } from 'kacielriff-theme-switcher';
 ```
 
 ## Exemplo de Uso
@@ -32,7 +32,7 @@ import { useThemeSwitcher } from 'dbc-theme-switcher';
 "use client"; // Caso esteja utilizando Next.js
 
 import React from 'react';
-import { ThemeSwitcher } from 'dbc-theme-switcher';
+import { ThemeSwitcher } from 'kacielriff-theme-switcher';
 
 export default App() {
   return (
